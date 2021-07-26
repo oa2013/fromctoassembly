@@ -14,7 +14,7 @@ Sources used:
 
 #####printf() with arguments
 
-```c++ {class="line-numbers" highlight=5}
+```c++ {class="line-numbers"}
 #include <stdio.h>
 
 int main()
@@ -24,7 +24,7 @@ int main()
 }
 ```
 
-```Assembly {class="line-numbers" highlight=6-11}
+```Assembly {class="line-numbers"}
 .LC0:
         .string "a=%d; b=%d; c=%d"
 main:
@@ -44,7 +44,7 @@ main:
 
 #####scanf()
 
-```c++ {class="line-numbers" highlight=5-6}
+```c++ {class="line-numbers"}
 #include <stdio.h>
 
 int main()
@@ -55,7 +55,7 @@ int main()
 }
 ```
 
-```Assembly {class="line-numbers" highlight=6-11}
+```Assembly {class="line-numbers"}
 .LC0:
         .string "%d"
 main:
@@ -74,7 +74,7 @@ main:
 
 #####Passed arguments
 
-```c++ {class="line-numbers" highlight=10}
+```c++ {class="line-numbers"}
 #include <stdio.h>
 
 int f(int a, int b, int c)
@@ -89,7 +89,7 @@ int main()
 }
 ```
 
-```Assembly {class="line-numbers" highlight=19-22}
+```Assembly {class="line-numbers"}
 f:
         push    rbp
         mov     rbp, rsp
@@ -123,7 +123,7 @@ main:
 
 #####Pointers
 
-```c++ {class="line-numbers" highlight=6-11}
+```c++ {class="line-numbers"}
 #include <stdio.h>
 
 int main()
@@ -140,7 +140,7 @@ int main()
 }
 ```
 
-```Assembly {class="line-numbers" highlight=4-6}
+```Assembly {class="line-numbers"}
 main:
         push    rbp
         mov     rbp, rsp
@@ -155,7 +155,7 @@ main:
 
 #####Double pointers
 
-```c++ {class="line-numbers" highlight=5-17}
+```c++ {class="line-numbers"}
 #include <stdio.h>
 
 int main()
@@ -178,7 +178,7 @@ int main()
 }
 ```
 
-```Assembly {class="line-numbers" highlight=4-8}
+```Assembly {class="line-numbers"}
 main:
         push    rbp
         mov     rbp, rsp
@@ -194,7 +194,7 @@ main:
 ```
 
 #####Arrays
-```c++ {class="line-numbers" highlight=5}
+```c++ {class="line-numbers"}
 #include <stdio.h>
 
 int main()
@@ -204,7 +204,7 @@ int main()
 }
 ```
 
-```Assembly {class="line-numbers" highlight=4-8}
+```Assembly {class="line-numbers"}
 main:
         push    rbp
         mov     rbp, rsp
@@ -219,7 +219,7 @@ main:
 ```
 
 #####For loop
-```c++ {class="line-numbers" highlight=5-10}
+```c++ {class="line-numbers"}
 #include <stdio.h>
 
 int main()
@@ -235,7 +235,7 @@ int main()
 }
 ```
 
-```Assembly {class="line-numbers" highlight=8-18}
+```Assembly {class="line-numbers"}
 .LC0:
         .string "%d\n"
 main:
@@ -261,7 +261,7 @@ main:
 
 
 #####If...else
-```c++ {class="line-numbers" highlight=9-16}
+```c++ {class="line-numbers"}
 #include <stdio.h>
 
 int main()
@@ -283,7 +283,7 @@ int main()
 }
 ```
 
-```Assembly {class="line-numbers" highlight=10-19}
+```Assembly {class="line-numbers"}
 .LC0:
         .string "Above min wage"
 .LC1:
@@ -310,7 +310,7 @@ main:
 ```
 
 #####While loop
-```c++ {class="line-numbers" highlight=7-11}
+```c++ {class="line-numbers"}
 
 #include <stdio.h>
 
@@ -328,7 +328,7 @@ int main()
 }
 ```
 
-```Assembly {class="line-numbers" highlight=8-18}
+```Assembly {class="line-numbers"}
 .LC0:
         .string "%d "
 main:
@@ -353,7 +353,7 @@ main:
 ```
 
 ###Structures
-```c++ {class="line-numbers" highlight=13-15}
+```c++ {class="line-numbers"}
 #include <stdio.h>
 
 struct Food{
@@ -378,7 +378,7 @@ int main()
 }
 ```
 
-```Assembly {class="line-numbers" highlight=13-15}
+```Assembly {class="line-numbers"}
 .LC0:
         .string "Blood Orange"
 .LC1:
